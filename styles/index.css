@@ -1,0 +1,64 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+body {
+  background: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+.bg-rose {
+  background-color: #dd768f;
+}
+
+.bg-prune {
+  background-color: #6c3856;
+}
+
+
+.prune {
+  color: #6c3856;
+}
+
+.rose {
+  color: #dd768f;
+}
+
+.b--prune {
+  border-color: #6c3856;
+}
+
+.b--rose {
+  border-color: #dd768f;
+}
+
+.abril {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 400;
+}
+
+.glegoo {
+  font-family: "Glegoo", serif;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #6c3856;
+  opacity: 0;
+}
+
+.nav-link:hover::before {
+  opacity: 1;
+}
