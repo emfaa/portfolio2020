@@ -15,19 +15,19 @@ a {
 }
 
 .bg-prune {
-  background-color: #6c3856;
+  background-color: #fe676e;
 }
 
 .prune {
-  color: #6c3856;
+  color: #fe676e;
 }
 
-.rose {
-  color: #dd768f;
+.bordeaux {
+  color: #961736;
 }
 
 .b--prune {
-  border-color: #6c3856;
+  border-color: #fe676e;
 }
 
 .b--rose {
